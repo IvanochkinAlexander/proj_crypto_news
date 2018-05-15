@@ -199,10 +199,8 @@ def send_to_telegram(i, m, c):
 
     """Send appropriate links to telegram channel"""
 
-    bot = telegram.Bot(token='402123311:AAG0HyX2n49ZA_Ef-HNPOnld8Te_C9-dnMQ')
-    # chat_id = -1001111732295
-    #chat_id = 169719023
-    chat_id = -1001143942179
+    bot = telegram.Bot(token='')
+    chat_id = ''
     bot.send_message(chat_id=chat_id, text=\
                      'Country:' + '\n' + '{}'.format(c) + "\n" + \
                      'Tags:' + "\n"+ '{}'.format(i) + "\n" + \
