@@ -31,7 +31,7 @@ from nltk import WordNetLemmatizer
 # exclude = set(punctuation + u'0123456789[]—«»–')
 
 
-"""Script send top banking news for collegues of Process Departement"""
+"""Script sends new about crypto currency to Telegram channel"""
 
 
 def get_links (t, l):
